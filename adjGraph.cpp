@@ -1,7 +1,7 @@
 #include "adjGraph.h"
 
 void GraphV1::addnewNode(std::string name) {
-  Node* V = new Node(name);// Allocates a memory to hold Node onject and returns a pointer to that memory address
+  Node* V = new Node(name);// Allocates a memory to hold Node object and returns a pointer to that memory address
   // After allocation constructure of this Node object will be called by passing name argument to it
   this->nodes_.push_back(V);  
 }
